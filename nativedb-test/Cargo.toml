@@ -1,0 +1,10 @@
+[package]
+name = "nativedb-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+native_db = {git = "https://github.com/zilong-dai/native_db.git", branch = "main" }
+native_model = "0.4.19"
+serde = "1.0"
+once_cell = "1.17.1"

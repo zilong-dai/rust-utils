@@ -1,8 +1,8 @@
 [package]
-name = "curve"
+name = "strop"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-ark-bls12-381 = { workspace = true }
 clap = { workspace = true }
+thiserror = { workspace = true }

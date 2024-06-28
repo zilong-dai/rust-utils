@@ -1,0 +1,7 @@
+[package]
+name = "sled-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sled = "0.34.6"

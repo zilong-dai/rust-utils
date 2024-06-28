@@ -6,13 +6,23 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [workspace]
-members = [ "curve","hex"]
+members = [
+    "curve",
+    "gitext",
+    "hex",
+    "logic",
+    "nativedb-test",
+    "sled-test",
+    "strop",
+    "vdf",
+]
 
 [dependencies]
-
 
 [workspace.dependencies]
 num-bigint = "0.4.5"
 num-traits = "0.2.19"
 ark-bls12-381 = "0.4.0"
+ark-std = "0.4.0"
 clap = { version = "4.0.29", features = ["derive", "env"] }
+thiserror = "1.0.38"

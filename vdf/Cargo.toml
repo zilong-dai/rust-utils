@@ -1,8 +1,9 @@
 [package]
-name = "curve"
+name = "vdf"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+jf-vdf = { path = "../../PlonkExt/vdf" }
+ark-std = { workspace = true }
 ark-bls12-381 = { workspace = true }
-clap = { workspace = true }
