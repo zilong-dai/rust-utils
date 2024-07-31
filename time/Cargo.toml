@@ -1,0 +1,16 @@
+[package]
+name = "time"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+# proc-macro = true
+
+
+[dependencies]
+chrono = "0.4.24"
+jiff = "0.1"
+
+# syn = { version = "2.0", features = ["full"] }
+# quote = "1.0"
+# proc-macro2 = "1.0"
