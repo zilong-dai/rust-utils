@@ -4,6 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-jf-vdf = { path = "../../PlonkExt/vdf" }
+jf-vdf = { git = "https://github.com/zilong-dai/PlonkExt.git", branch = "dev" }
 ark-std = { workspace = true }
 ark-bls12-381 = { workspace = true }
