@@ -39,3 +39,14 @@ cargo build --package gitc # or --release
 #example: gitc zilong-dai/rust-utils
 ```
 
+## redis-cli
+a simple redis-cli
+
+### Uasge
+ 
+```shell
+docker run --name redis-test -p 6379:6379 -d redis
+
+cargo run --package redis-cli --release -- 127.0.0.1:6379
+
+```

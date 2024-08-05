@@ -16,6 +16,7 @@ members = [
     "logic",
     "nativedb-test",
     "path-test",
+    "redis-cli",
     "sled-test",
     "strop",
     "time",
